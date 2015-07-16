@@ -1,6 +1,6 @@
 ﻿using Autofac;
 using Autofac.Integration.SignalR;
-using SignalRChat.Hubs;
+using SignalRChat.Web.Hubs;
 using System.Reflection;
 
 namespace SignalRChat.Web.Bootstrapper
@@ -14,7 +14,7 @@ namespace SignalRChat.Web.Bootstrapper
             builder.RegisterType<TestClass>();
 
             // Register your SignalR hubs.
-            builder.RegisterHubs(Assembly.Load("SignalRChat.Hubs"));
+            builder.RegisterHubs(Assembly.Load("SignalRChat.Web"));
 
             return builder.Build();
         }

@@ -74,10 +74,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\SignalRChat.Hubs\SignalRChat.Hubs.csproj">
-      <Project>{cb890de8-5af7-480c-8308-47c316b4e6be}</Project>
-      <Name>SignalRChat.Hubs</Name>
-    </ProjectReference>
     <ProjectReference Include="..\SignalRChat.Web\SignalRChat.Web.csproj">
       <Project>{6bbc3153-c3db-4831-b96d-7e0f314b84bd}</Project>
       <Name>SignalRChat.Web</Name>

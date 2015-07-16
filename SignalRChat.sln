@@ -5,8 +5,6 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRChat.Web", "SignalRChat.Web\SignalRChat.Web.csproj", "{6BBC3153-C3DB-4831-B96D-7E0F314B84BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRChat.Hubs", "SignalRChat.Hubs\SignalRChat.Hubs.csproj", "{CB890DE8-5AF7-480C-8308-47C316B4E6BE}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRChat.Web.Bootstrapper", "SignalRChat.Web.Bootstrapper\SignalRChat.Web.Bootstrapper.csproj", "{DE9FA31E-3255-4CDC-978F-976E76A53F22}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{6C895801-AA12-45F2-AAC4-D17E88820FBA}"
@@ -26,10 +24,6 @@ Global
 		{6BBC3153-C3DB-4831-B96D-7E0F314B84BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6BBC3153-C3DB-4831-B96D-7E0F314B84BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6BBC3153-C3DB-4831-B96D-7E0F314B84BD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CB890DE8-5AF7-480C-8308-47C316B4E6BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CB890DE8-5AF7-480C-8308-47C316B4E6BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CB890DE8-5AF7-480C-8308-47C316B4E6BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CB890DE8-5AF7-480C-8308-47C316B4E6BE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DE9FA31E-3255-4CDC-978F-976E76A53F22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DE9FA31E-3255-4CDC-978F-976E76A53F22}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DE9FA31E-3255-4CDC-978F-976E76A53F22}.Release|Any CPU.ActiveCfg = Release|Any CPU
